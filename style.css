@@ -1,0 +1,48 @@
+a{
+    margin-top: 5px;
+    display: inline-block;
+    border-radius: 0px 10px 0px 10px;
+    padding: 10px;
+    border: 2px solid blue;
+}
+a:link{
+    color: forestgreen;
+}
+a:visited{
+    color: darkred;
+}
+a:hover{
+    background-color: royalblue;
+    color: white;
+}
+a:active{
+    background-color: burlywood;
+}
+.list{
+    list-style: decimal-leading-zero;
+    list-style-position: outside;
+    background-color: aqua;
+}
+
+li{
+    background-color: chartreuse;
+    
+}
+#myTable{
+    width: 50%;
+}
+table,th,td{
+    border: 3px solid blue;
+    border-collapse: collapse;
+}
+th{
+    height: 70px;
+}
+td{
+    height: 50px;
+    text-align: right;
+    vertical-align: baseline;
+}
+tr:nth-child(1){
+    background-color: burlywood;
+}
